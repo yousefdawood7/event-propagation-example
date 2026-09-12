@@ -1,0 +1,21 @@
+main {
+  &,
+  section,
+  nav {
+    padding: 2.5rem 1rem;
+    border: 2px solid black;
+  }
+
+  section {
+    border-color: red;
+  }
+
+  nav {
+    border-color: green;
+  }
+
+  button {
+    display: block;
+    border-color: blueviolet;
+  }
+}
