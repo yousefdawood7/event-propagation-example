@@ -1,11 +1,12 @@
-"use strict";
-const main = document.querySelector("main");
-const section = document.querySelector("section");
-const nav = document.querySelector("nav");
-const button = document.querySelector("button");
-main.addEventListener("click", (e) => {
-    console.log("Main", "TARGET: ", e.target, "CURRENT TARGET: ", e.currentTarget);
+import {faker as $bVnGV$faker} from "@faker-js/faker";
+
+
+const $52845ac29bae9a10$var$firstSection = document.querySelector(".first__section");
+const $52845ac29bae9a10$var$button = document.querySelector("button");
+$52845ac29bae9a10$var$button.addEventListener("click", ()=>{
+    const productName = `<p>${(0, $bVnGV$faker).commerce.product()}</p>`;
+    $52845ac29bae9a10$var$firstSection.insertAdjacentHTML("afterbegin", productName);
 });
-button.addEventListener("click", () => {
-    console.log("button"); // Current Target
-});
+
+
+//# sourceMappingURL=script.js.map

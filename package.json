@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "source": "src/index.html",
+  "dependencies": {
+    "@faker-js/faker": "^10.6.0"
+  },
+  "scripts": {
+    "watch": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.16.4"
+  }
+}
